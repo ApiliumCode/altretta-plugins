@@ -13,10 +13,10 @@
  * and prints the exact ordered `npm publish` sequence (which needs your npm OTP).
  *
  * USAGE
- *   node scripts/fetch-and-assemble.mjs [--version 0.1.0] [--repo ApiliumCode/akashi] [--work <dir>]
+ *   node scripts/fetch-and-assemble.mjs [--version 0.1.0] [--repo ApiliumCode/altretta] [--work <dir>]
  *
  *   --version <v>   CLI version; the Release tag is `cli-v<version>`. Default 0.1.0.
- *   --repo <o/r>    GitHub repo holding the Release. Default ApiliumCode/akashi.
+ *   --repo <o/r>    GitHub repo holding the Release. Default ApiliumCode/altretta.
  *   --work <dir>    Scratch dir for downloads + unpacked binaries. Default a temp dir.
  *
  * Requires the `gh` CLI (authenticated) and `tar` on PATH; `.zip` is unpacked via
@@ -41,7 +41,7 @@ const PLATFORMS = [
 ];
 
 function parseArgs(argv) {
-  const opts = { version: "0.1.0", repo: "ApiliumCode/akashi", work: undefined };
+  const opts = { version: "0.1.0", repo: "ApiliumCode/altretta", work: undefined };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--version") opts.version = argv[++i];

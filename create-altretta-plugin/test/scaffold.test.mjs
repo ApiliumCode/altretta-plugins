@@ -19,7 +19,7 @@ async function tmpParent() {
   return await fs.mkdtemp(path.join(os.tmpdir(), "cap-test-"));
 }
 
-// Reverse-DNS rule mirrored from akashi_core::plugin_pack::validate_manifest.
+// Reverse-DNS rule mirrored from altretta_core::plugin_pack::validate_manifest.
 const ID_RE = /^[a-z0-9]+(\.[a-z0-9-]+)+$/;
 const SEMVER_RE = /^\d+\.\d+\.\d+$/;
 

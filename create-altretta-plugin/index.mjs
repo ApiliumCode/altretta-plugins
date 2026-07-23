@@ -29,7 +29,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_DIR = path.join(HERE, "template");
 
 /**
- * Reverse-DNS id rule — mirrors `akashi_core::plugin_pack::validate_manifest`
+ * Reverse-DNS id rule — mirrors `altretta_core::plugin_pack::validate_manifest`
  * (`^[a-z0-9]+(\.[a-z0-9-]+)+$`). Kept in lock-step so a scaffolded id always
  * survives `akashi-plugin pack`.
  */
