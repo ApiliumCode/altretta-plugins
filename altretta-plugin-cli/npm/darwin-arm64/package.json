@@ -1,0 +1,31 @@
+{
+  "name": "@apilium/altretta-plugin-darwin-arm64",
+  "version": "0.1.0",
+  "description": "Prebuilt akashi-plugin binary for macOS (Apple Silicon). Installed automatically as an optional dependency of @apilium/altretta-plugin.",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Apilium",
+  "license": "Apache-2.0 OR Commercial",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/ApiliumCode/altretta-plugins#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApiliumCode/altretta-plugins.git",
+    "directory": "altretta-plugin-cli/npm/darwin-arm64"
+  },
+  "bugs": {
+    "url": "https://github.com/ApiliumCode/altretta-plugins/issues"
+  }
+}

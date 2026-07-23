@@ -1,0 +1,13 @@
+{
+  "id": "com.apilium.task-dashboard",
+  "name": "Task Dashboard",
+  "version": "0.1.0",
+  "author_pubkey_hex": "",
+  "author_fingerprint": "",
+  "akashi_min_version": "0.5.0",
+  "entry": "dist/main.js",
+  "description": "Every task in your vault, in one panel — check them off and it writes back to the note.",
+  "author_name": "Apilium",
+  "license": "MIT",
+  "permissions": ["ReadNotes", "WriteNotes", "RenderPanel"]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@apilium/create-altretta-plugin",
+  "version": "0.1.2",
+  "description": "Scaffold a new Altretta plugin: a runnable, permission-declaring project you can load in Altretta Developer Mode in a few minutes.",
+  "type": "module",
+  "bin": {
+    "create-altretta-plugin": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "template",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "altretta",
+    "plugin",
+    "scaffold",
+    "create",
+    "apilium"
+  ],
+  "author": "Apilium",
+  "license": "Apache-2.0 OR Commercial",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/ApiliumCode/altretta-plugins#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApiliumCode/altretta-plugins.git",
+    "directory": "create-altretta-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/ApiliumCode/altretta-plugins/issues"
+  }
+}

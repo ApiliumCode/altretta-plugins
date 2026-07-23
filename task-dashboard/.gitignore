@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+# Your author signing key and packaged plugins — never commit these.
+*.key
+*.akplugin
+
+# Local scratch (gstack browse logs, design previews)
+.gstack/
+.preview*.html
+.preview*.png

@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "com.apilium.task-dashboard",
+    "name": "Task Dashboard",
+    "description": "Every task in your vault, in one panel — check them off and it writes back to the note.",
+    "category": null,
+    "permissions": [
+      "ReadNotes",
+      "WriteNotes",
+      "RenderPanel"
+    ],
+    "source": "akashi",
+    "signed": true,
+    "version": "0.1.0",
+    "repoPath": "task-dashboard",
+    "author": "Apilium",
+    "install": {
+      "type": "developer-mode",
+      "target": "https://github.com/ApiliumCode/altretta-plugins/tree/main/task-dashboard"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "__PLUGIN_ID__",
+  "name": "__PLUGIN_NAME__",
+  "version": "0.1.0",
+  "author_pubkey_hex": "",
+  "author_fingerprint": "",
+  "akashi_min_version": "0.5.0",
+  "entry": "dist/main.js",
+  "description": "A starter Altretta plugin.",
+  "author_name": "__AUTHOR_NAME__",
+  "license": "MIT",
+  "permissions": ["ReadNotes", "AddCommands", "RenderPanel"]
+}

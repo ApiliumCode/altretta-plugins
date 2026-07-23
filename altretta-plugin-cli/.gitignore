@@ -1,0 +1,6 @@
+# Native binaries are produced by CI at publish time and copied into each
+# platform package by scripts/assemble-platform-packages.mjs. Never commit them.
+npm/*/bin/
+
+# Local test scratch
+node_modules/

@@ -1,0 +1,18 @@
+{
+  "name": "__PLUGIN_SLUG__",
+  "version": "0.1.0",
+  "description": "An Altretta plugin.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --format=esm --outfile=dist/main.js",
+    "dev": "esbuild src/main.js --bundle --format=esm --outfile=dist/main.js --watch",
+    "keygen": "akashi-plugin keygen --out author.key",
+    "pack": "npm run build && akashi-plugin pack . --key author.key --out __PLUGIN_SLUG__.akplugin --deny-warnings",
+    "verify": "akashi-plugin verify __PLUGIN_SLUG__.akplugin"
+  },
+  "devDependencies": {
+    "@apilium/altretta-plugin": "^0.1.0",
+    "esbuild": "^0.23.0"
+  }
+}

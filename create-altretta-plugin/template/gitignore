@@ -1,0 +1,6 @@
+node_modules/
+dist/
+
+# Your author signing key and packaged plugins — never commit these.
+*.key
+*.akplugin

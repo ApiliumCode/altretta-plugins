@@ -1,0 +1,47 @@
+{
+  "name": "@apilium/altretta-plugin",
+  "version": "0.1.0",
+  "description": "The akashi-plugin author CLI: keygen, pack (sign), and verify Altretta plugins. Ships a prebuilt native binary per platform, resolved at run time.",
+  "type": "module",
+  "bin": {
+    "akashi-plugin": "bin/akashi-plugin.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "optionalDependencies": {
+    "@apilium/altretta-plugin-darwin-arm64": "0.1.0",
+    "@apilium/altretta-plugin-darwin-x64": "0.1.0",
+    "@apilium/altretta-plugin-linux-x64": "0.1.0",
+    "@apilium/altretta-plugin-win32-x64": "0.1.0"
+  },
+  "keywords": [
+    "altretta",
+    "plugin",
+    "sign",
+    "cli",
+    "apilium"
+  ],
+  "author": "Apilium",
+  "license": "Apache-2.0 OR Commercial",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/ApiliumCode/altretta-plugins#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApiliumCode/altretta-plugins.git",
+    "directory": "altretta-plugin-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/ApiliumCode/altretta-plugins/issues"
+  }
+}
